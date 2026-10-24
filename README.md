@@ -84,11 +84,6 @@ python report_stats.py
 python cli.py "算力券 政策 最新进展" --cnt 20 --out report.md
 ```
 
-## 关于密钥
-
-`config.py` 在 `.gitignore` 里，不会被提交。仓库里只有 `config.example.py` 占位符。
-
-如果误提交了：去控制台删掉那个 key 重建一个，光改文件不够——历史记录里还在。
 
 ## License
 
