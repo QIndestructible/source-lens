@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>元宝搜索 · 信源体检</title>
+<style>
+:root{--bg:#f5faf8;--card:#fff;--ink:#17231e;--dim:#5f736a;--line:#e5eee9;
+--green:#0e9f6e;--green-d:#0b7a55;--amber:#b5761c;--red:#c8473f}
+*{box-sizing:border-box}
+body{margin:0;padding:36px 24px 70px;background:var(--bg);color:var(--ink);
+font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Segoe UI",sans-serif;
+-webkit-font-smoothing:antialiased}
+.wrap{max-width:1000px;margin:0 auto}
+.brand{font-size:12px;letter-spacing:.14em;color:var(--green-d);font-weight:600}
+h1{font-size:28px;letter-spacing:-.02em;margin:10px 0 8px;font-weight:700}
+.sub{color:var(--dim);font-size:14px;line-height:1.75;max-width:640px;margin:0}
+
+.box{background:var(--card);border:1px solid var(--line);border-radius:18px;
+padding:8px 8px 8px 20px;display:flex;gap:10px;align-items:center;margin:26px 0 12px;
+box-shadow:0 4px 18px rgba(16,40,30,.06)}
+.box input{flex:1;border:0;outline:0;font-size:16px;padding:12px 0;background:transparent;color:var(--ink)}
+.box input::placeholder{color:#a3b3ab}
+.box button{border:0;border-radius:12px;padding:13px 26px;font-size:15px;font-weight:600;
+background:var(--green);color:#fff;cursor:pointer;transition:.15s}
+.box button:hover{background:var(--green-d)}
+.box button:disabled{background:#9fc9b8;cursor:default}
+
+.row{display:flex;gap:18px;flex-wrap:wrap;align-items:center;font-size:13px;color:var(--dim)}
+.row label{display:flex;gap:7px;align-items:center}
+.row select{border:1px solid var(--line);background:#fff;border-radius:9px;padding:6px 9px;
+font-size:12.5px;color:#3c4f47;outline:none}
+.examples{margin-left:auto;font-size:12.5px}
+.examples a{color:var(--green-d);cursor:pointer;text-decoration:none;border-bottom:1px dashed #b9d8c9;margin-left:8px}
+
+.status{margin:16px 0 0;font-size:13.5px;color:var(--dim);min-height:20px}
+.status.err{color:var(--red)}
+.status b{color:var(--ink)}
+
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:22px 0 0}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:16px;padding:15px 17px;
+box-shadow:0 2px 10px rgba(16,40,30,.045)}
+.kpi b{display:block;font-size:29px;letter-spacing:-.03em;line-height:1.1}
+.kpi i{font-style:normal;font-size:14px;color:var(--dim);margin-left:2px}
+.kpi span{display:block;margin-top:4px;font-size:12px;color:var(--dim)}
+
+.flags{margin:14px 0 0;display:flex;flex-direction:column;gap:7px}
+.flag{font-size:13px;color:#3c4f47;display:flex;gap:9px;align-items:flex-start}
+.dot{width:8px;height:8px;border-radius:50%;margin-top:6px;flex:0 0 8px}
+
+.panel{background:#fff;border:1px solid var(--line);border-radius:16px;padding:19px 21px;
+margin-top:14px;box-shadow:0 2px 10px rgba(16,40,30,.045)}
+.panel h2{font-size:14px;margin:0 0 13px;font-weight:700;display:flex;gap:8px;align-items:center}
+.panel h2 em{font-style:normal;font-size:11.5px;font-weight:500;color:var(--dim)}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:820px){.two{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)}}
+
+.chain{padding:11px 0;border-top:1px solid #f0f5f2;font-size:13px}
+.chain:first-child{border-top:0;padding-top:2px}
+.chain .t{color:#2c3d35;line-height:1.5}
+.chain .d{margin-top:6px;color:var(--dim);font-size:12px;line-height:1.7}
+.chain .n{display:inline-block;background:#fdf3e3;color:var(--amber);border-radius:99px;
+padding:1px 9px;font-size:11px;font-weight:600;margin-right:8px}
+
+pre.brief{margin:0;white-space:pre-wrap;word-break:break-word;font-family:inherit;
+font-size:12.8px;line-height:1.85;color:#33453c;background:#f4faf7;border-radius:11px;padding:13px 14px}
+.mini-btn{margin-top:10px;border:1px solid var(--line);background:#fff;border-radius:9px;
+padding:6px 13px;font-size:12px;color:#3c4f47;cursor:pointer}
+.mini-btn:hover{border-color:#bcd8cc}
+
+.doc{display:grid;grid-template-columns:1fr auto;gap:4px 12px;padding:12px 0;border-top:1px solid #f0f5f2}
+.doc:first-child{border-top:0}
+.doc a{color:#1b2a23;text-decoration:none;font-size:13.6px;line-height:1.55;font-weight:500}
+.doc a:hover{color:var(--green-d);text-decoration:underline}
+.doc .m{grid-column:1 / -1;font-size:11.8px;color:var(--dim);line-height:1.7}
+.doc .m span{margin-right:11px}
+.badge{font-size:10.5px;padding:2px 8px;border-radius:99px;background:#eef4f0;color:#5f736a;white-space:nowrap}
+.badge.dup{background:#fdf3e3;color:var(--amber);font-weight:600}
+.badge.off{background:#e8f5ee;color:var(--green-d)}
+footer{margin-top:26px;font-size:11.5px;color:#8a9b93;line-height:1.9}
+code{background:#eef4f0;padding:1px 6px;border-radius:5px;font-size:11.5px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="brand">元宝搜索 · 信源体检</div>
+  <h1>这条结果，是第几个人在说？</h1>
+  <p class="sub">输入一个问题，拉回一批结果，把转载和同源包装去掉，看还剩几个独立信源。
+  转载越多，模型越容易把「一份通稿」读成「多方共识」。</p>
+
+  <div class="box">
+    <input id="q" placeholder="例如：算力券政策最新进展" autocomplete="off">
+    <button id="go">体检</button>
+  </div>
+
+  <div class="row">
+    <label>条数
+      <select id="cnt"><option>10</option><option selected>20</option><option>30</option><option>40</option><option>50</option></select>
+    </label>
+    <label>时效
+      <select id="fresh">
+        <option value="d3">近 3 天</option><option value="d7">近 7 天</option>
+        <option value="m1" selected>近 1 月</option><option value="m3">近 3 月</option><option value="y1">近 1 年</option>
+      </select>
+    </label>
+    <label>模式
+      <select id="mode">
+        <option value="2" selected>混合</option><option value="0">公开网页</option><option value="1">权威垂直</option>
+      </select>
+    </label>
+    <span class="examples">试试：
+      <a data-q="算力券 政策 最新进展">算力券</a>
+      <a data-q="英伟达 GTC Berlin 2026 发布了哪些新产品">GTC Berlin</a>
+      <a data-q="房贷利率 下调 最新">房贷利率</a>
+    </span>
+  </div>
+
+  <div id="status" class="status">输入问题后按回车，或点「体检」。</div>
+
+  <div id="result" hidden>
+    <div class="kpis">
+      <div class="kpi"><b id="k1">-</b><span>条结果</span></div>
+      <div class="kpi"><b id="k2">-</b><span>独立信源</span></div>
+      <div class="kpi"><b id="k3">-</b><i>%</i><span>独立信源密度</span></div>
+      <div class="kpi"><b id="k4">-</b><span>条疑似重复</span></div>
+    </div>
+
+    <div id="flags" class="flags"></div>
+
+    <div class="two">
+      <div class="panel">
+        <h2>同源转载 <em id="chainhint"></em></h2>
+        <div id="chains"></div>
+      </div>
+      <div class="panel">
+        <h2>信源结构提示 <em>可直接拼进 RAG prompt</em></h2>
+        <pre class="brief" id="brief"></pre>
+        <button class="mini-btn" id="copy">复制这段</button>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h2>结果明细 <em id="doclbl"></em></h2>
+      <div id="docs"></div>
+    </div>
+  </div>
+
+  <footer>
+    判断方法：标题去掉站点后缀 + 正文按 3 字切组比相似度，重合 ≥0.55 算同一篇，合并后数独立信源。<br>
+    这套指标只说明「证据独不独立」，不说明「内容对不对」。
+  </footer>
+</div>
+
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => (s || "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function status(msg, isErr) {
+  const el = $("#status");
+  el.className = "status" + (isErr ? " err" : "");
+  el.innerHTML = msg;
+}
+
+async function run() {
+  const q = $("#q").value.trim();
+  if (!q) { status("先输入一个问题。", true); return; }
+
+  const cnt = $("#cnt").value, fresh = $("#fresh").value, mode = $("#mode").value;
+  const btn = $("#go");
+  btn.disabled = true; btn.textContent = "查…";
+  status(`正在检索「${esc(q)}」，并逐条比相似度……`);
+
+  const t0 = Date.now();
+  try {
+    const r = await fetch(`/api/search?q=${encodeURIComponent(q)}&cnt=${cnt}&mode=${mode}&fresh=${fresh}`);
+    const d = await r.json();
+    if (d.error) { status("出错了：" + esc(d.error), true); return; }
+    render(d);
+    status(`完成，用时 ${d.elapsed}s ｜ ${d.params.cnt} 条 · ${d.params.freshness} · mode=${d.params.mode}` +
+           ` ｜ RequestId ${esc((d.meta && d.meta.request_id || "").slice(0,8))}…`);
+  } catch (e) {
+    status("请求失败：" + esc(e.message), true);
+  } finally {
+    btn.disabled = false; btn.textContent = "体检";
+  }
+}
+
+function render(d) {
+  $("#result").hidden = false;
+  $("#k1").textContent = d.n;
+  $("#k2").textContent = d.clusters;
+  $("#k3").textContent = Math.round(d.density * 100);
+  $("#k4").textContent = d.dup;
+
+  $("#flags").innerHTML = (d.flags || []).map(([lv, tx]) => {
+    const c = lv === "红" ? "#c8473f" : lv === "黄" ? "#b5761c" : "#7c8d85";
+    return `<div class="flag"><span class="dot" style="background:${c}"></span><span>${esc(tx)}</span></div>`;
+  }).join("");
+
+  $("#chainhint").textContent = d.cross ? `${d.cross} 组` : "没有发现";
+  $("#chains").innerHTML = d.chains.length
+    ? d.chains.slice(0, 5).map(c => `<div class="chain">
+        <div class="t"><span class="n">${c.size} 条</span>${esc(c.title)}</div>
+        <div class="d">覆盖 ${c.domains.length} 个域名：${esc(c.domains.join("、"))}</div>
+      </div>`).join("")
+    : `<div class="d" style="color:#5f736a;font-size:13px">这批结果里没发现同源转载，可以放心当多条证据用。</div>`;
+
+  $("#brief").textContent = d.brief;
+
+  const docs = [...d.docs].sort((a, b) => a.cid - b.cid || b.score - a.score);
+  $("#doclbl").textContent = `${docs.length} 条，同源的排在一起`;
+  $("#docs").innerHTML = docs.map(x => {
+    const badges = [];
+    if (x.cluster_size > 1) badges.push(`<span class="badge dup">同源 ×${x.cluster_size}</span>`);
+    if (x.tier === "官方") badges.push(`<span class="badge off">一手</span>`);
+    return `<div class="doc">
+      <a href="${esc(x.url)}" target="_blank" rel="noreferrer">${esc(x.title) || "（无标题）"}</a>
+      <span>${badges.join(" ")}</span>
+      <div class="m"><span>${esc(x.site || "未知站点")}</span><span>${esc(x.date || "无日期")}</span>
+        <span>相关度 ${x.score.toFixed(2)}</span>${x.authority ? `<span>权威度 ${x.authority}/5</span>` : ""}</div>
+    </div>`;
+  }).join("");
+}
+
+$("#go").onclick = run;
+$("#q").addEventListener("keydown", e => { if (e.key === "Enter") run(); });
+document.querySelectorAll(".examples a").forEach(a => a.onclick = () => {
+  $("#q").value = a.dataset.q; run();
+});
+$("#copy").onclick = async () => {
+  const t = $("#brief").textContent;
+  try { await navigator.clipboard.writeText(t); }
+  catch { const ta = document.createElement("textarea"); ta.value = t; document.body.appendChild(ta); ta.select(); document.execCommand("copy"); ta.remove(); }
+  const b = $("#copy"); b.textContent = "已复制"; setTimeout(() => b.textContent = "复制这段", 1400);
+};
+</script>
+</body>
+</html>

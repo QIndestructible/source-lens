@@ -1,0 +1,192 @@
+{
+  "id": "Q20",
+  "query": "半导体 出口管制 最新调整",
+  "fetched_at": "2026-10-23T16:05:02",
+  "request_id": "3e265461-87f6-4c7c-bf0e-477ed0e1524e",
+  "version": "standard",
+  "brief": "【信源结构提示】围绕「半导体 出口管制 最新调整」，本次检索共 20 条结果，去重后为 17 个独立信源（密度 85%）。\n其中存在同源转载：「欧盟更新双用途物项出口管制清单」有 3 条、覆盖 2 个域名；「韩国修订版战略物资出口管制政策9月1日正式生效」有 2 条、覆盖 2 个域名。同一通稿无论出现几次，只计一票。\n权威度分布：官方 0 条、高权威 0 条、其他 20 条。\n优先引用：欧盟更新双用途物项出口管制清单（authority=0，http://commerce.shandong.gov.cn/art/2026/10/8/art_250176_10385774.html）；韩国修订版战略物资出口管制政策9月1日正式生效（authority=0，http://commerce.shandong.gov.cn/art/2026/10/8/art_250176_10385756.html）；經長:先進晶片走私大陸 將有刑責（authority=0，https://money.udn.com/money/story/7307/9820097）\n若某个结论只有 1 条结果支撑，请在回答中标注「单源，未交叉验证」。\n",
+  "density": 0.85,
+  "clusters": 17,
+  "docs": [
+    {
+      "title": "欧盟更新双用途物项出口管制清单",
+      "url": "http://commerce.shandong.gov.cn/art/2026/10/8/art_250176_10385774.html",
+      "site": "山东省商务厅",
+      "date": "2026/10/08 00:00:00",
+      "passage": "欧盟更新双用途物项出口管制清单 山东省商务厅。欧盟更新双用途物项出口管制清单 发布日期:2026-10-08 浏览次数:3$(function(){$.ajax({url : '/module/visitcount/getVCcount.jsp?colid=250176&artid=10385774',async: true,success: function(message){var span = document.getElementById(\"artcount\"); span.innerHTML=message;}, });}); 字号:[ 大 中 小 ] 2026年9月14日,欧盟委员会通过一项授权条例,对欧盟双用途物项出口管制清单进行更新,进一步加强对半导体、先进计算等关键技术和相关设备的出口管制。此次调整主要依据瓦森纳安排、澳大利亚集团和核供应国集团2025年作出的相关决定,并纳入欧盟成员国在多边出口管制机制下承担的部分管制承诺。欧盟表示,此次更新旨在加强成员国对新兴技术的统一出口管制,同时提高政策透明度,并维护欧盟企业竞争力和公平竞争环境。根据更新后的清单,新增管制对象包括多类半导体制造、测试设备及材料,例如用于钼和钌的原子层沉积设备、极紫外光刻掩模研发和检测设备以及单晶圆清洗设备。此外,部分先进计算集成电路和电子组件也被纳入管制范围,包括搭载一个或多个数字处理单元的集成电路。此次更新还涉及用于高温环境的先进陶瓷基复合材料、基于感应技术的旋转编码器、用于含能材料的增材制造设备、生产碳化硅纤维的化学气相沉积设备,以及燃气轮机发动机轴流压缩机相关开发技术。同时,欧盟还调整了部分出口管制参数,并更新相关技术定义和描述。欧盟表示,统一的双用途物项出口管制是其维护国际安全和经济安全的重要政策工具。更新后的管制清单将在欧洲议会和欧盟理事会完成通常为期两个月的审查,并在《欧...",
+      "score": 0.706,
+      "authority": 0.0
+    },
+    {
+      "title": "江苏省进出口公平贸易综合预警平台 政策导读 欧盟更新双用途物项出口管制清单",
+      "url": "https://fairtrade.ccpitjs.org/art/2026/10/8/art_2605_73747.html",
+      "site": "fairtrade.ccpitjs.org",
+      "date": "2026/10/08 00:00:00",
+      "passage": "江苏省进出口公平贸易综合预警平台 政策导读 欧盟更新双用途物项出口管制清单 江苏省进出口公平贸易综合预警平台。欧盟更新双用途物项出口管制清单 2026年9月14日,欧盟委员会通过一项授权条例,对欧盟双用途物项出口管制清单进行更新,进一步加强对半导体、先进计算等关键技术和相关设备的出口管制。 此次调整主要依据瓦森纳安排、澳大利亚集团和核供应国集团2025年作出的相关决定,并纳入欧盟成员国在多边出口管制机制下承担的部分管制承诺。欧盟表示,此次更新旨在加强成员国对新兴技术的统一出口管制,同时提高政策透明度,并维护欧盟企业竞争力和公平竞争环境。 根据更新后的清单,新增管制对象包括多类半导体制造、测试设备及材料,例如用于钼和钌的原子层沉积设备、极紫外光刻掩模研发和检测设备以及单晶圆清洗设备。此外,部分先进计算集成电路和电子组件也被纳入管制范围,包括搭载一个或多个数字处理单元的集成电路。 此次更新还涉及用于高温环境的先进陶瓷基复合材料、基于感应技术的旋转编码器、用于含能材料的增材制造设备、生产碳化硅纤维的化学气相沉积设备,以及燃气轮机发动机轴流压缩机相关开发技术。同时,欧盟还调整了部分出口管制参数,并更新相关技术定义和描述。 欧盟表示,统一的双用途物项出口管制是其维护国际安全和经济安全的重要政策工具。更新后的管制清单将在欧洲议会和欧盟理事会完成通常为期两个月的审查,并在《欧盟官方公报》公布后正式生效。...",
+      "score": 0.7,
+      "authority": 0.0
+    },
+    {
+      "title": "欧盟更新双用途物项出口管制清单",
+      "url": "https://fairtrade.ccpitjs.org/art/2026/10/8/art_2638_73748.html",
+      "site": "fairtrade.ccpitjs.org",
+      "date": "2026/10/08 00:00:00",
+      "passage": "欧盟更新双用途物项出口管制清单 江苏省进出口公平贸易综合预警平台。欧盟更新双用途物项出口管制清单 发布日期:2026-10-08 信息来源:对外经济贸易大学中国WTO研究院 字号:[ 大 中 小 ] 2026年9月14日,欧盟委员会通过一项授权条例,对欧盟双用途物项出口管制清单进行更新,进一步加强对半导体、先进计算等关键技术和相关设备的出口管制。 此次调整主要依据瓦森纳安排、澳大利亚集团和核供应国集团2025年作出的相关决定,并纳入欧盟成员国在多边出口管制机制下承担的部分管制承诺。欧盟表示,此次更新旨在加强成员国对新兴技术的统一出口管制,同时提高政策透明度,并维护欧盟企业竞争力和公平竞争环境。 根据更新后的清单,新增管制对象包括多类半导体制造、测试设备及材料,例如用于钼和钌的原子层沉积设备、极紫外光刻掩模研发和检测设备以及单晶圆清洗设备。此外,部分先进计算集成电路和电子组件也被纳入管制范围,包括搭载一个或多个数字处理单元的集成电路。 此次更新还涉及用于高温环境的先进陶瓷基复合材料、基于感应技术的旋转编码器、用于含能材料的增材制造设备、生产碳化硅纤维的化学气相沉积设备,以及燃气轮机发动机轴流压缩机相关开发技术。同时,欧盟还调整了部分出口管制参数,并更新相关技术定义和描述。 欧盟表示,统一的双用途物项出口管制是其维护国际安全和经济安全的重要政策工具。更新后的管制清单将在欧洲议会和欧盟理事会完成通常为期两个月的审查,并在《欧盟官方公报》公布后正式生效。...",
+      "score": 0.704,
+      "authority": 0.0
+    },
+    {
+      "title": "經長:先進晶片走私大陸 將有刑責",
+      "url": "https://money.udn.com/money/story/7307/9820097",
+      "site": "money.udn.com",
+      "date": "2026/10/17 02:18:03",
+      "passage": "經長:先進晶片走私大陸 將有刑責 經濟日報。經長:先進晶片走私大陸 將有刑責 本文共268字 晶片 走私 超微 ', '', '', '', '', '', '', '', '', '', '', '', '', ' 00:00 2026/10/17 02:18:03 經濟日報 編譯劉忠勇/綜合外電 經濟部長龔明鑫接受彭博資訊專訪時表示,將加強管制AI伺服器與先進晶片出口,以進一步與美國出口管制接軌,未經許可運往中國大陸將面臨刑責,但未說明實施時程。 龔明鑫說,台灣計劃將AI伺服器與先進半導體納入出口管制清單,「往後我們對部分管制品項採取的措施,會與美國相互對應,因為我們在(和美國的)對等貿易協定中作了不少承諾」,但未透露新措施何時實施。 新措施生效後,若受管制的AI硬體被運往大陸,將依《貿易法》追究刑責。美國長期管制中國大陸採購輝達(NVIDIA)與超微(AMD)的AI晶片,但陸企仍透過運作複雜的黑市,取得這些搶手的AI加速器。 ※ 歡迎用「轉貼」或「分享」的方式轉傳文章連結;未經授權,請勿複製轉貼文章內容 晶片 走私 超微...",
+      "score": 0.71,
+      "authority": 0.0
+    },
+    {
+      "title": "China proposes new export controls on AI and chip technologies",
+      "url": "https://www.diplomacy.edu/updates/china-ai-chip-export-controls",
+      "site": "www.diplomacy.edu",
+      "date": "2026/10/21 00:00:00",
+      "passage": "China proposes new export controls on AI and chip technologies Image via Magnific China has proposed new export controls on advanced AI and semiconductor technologies, expanding government oversight of strategic technology transfers amid growing international competition. In a joint announcement published on 16 October 2026, the Ministry of Commerce and the Ministry of Science and Technology proposed adding 40 technologies to the country’s catalogue of prohibited or restricted exports, including 23 related to AI. The proposed measures cover large AI models, autonomous agents, computing infrastructure and advanced chip design technologies, including systems involving sensitive national data and applications relevant to critical infrastructure and security. The wider proposal also covers 12 photovoltaic technologies and five biomedical technologies. According to the government’s official explanation, 14 technologies would be prohibited from export and 26 would face restrictions. The authorities have opened a public consultation until 15 November 2026. However, a temporary requirement for exporters to register transfers of the listed technologies took effect immediately on 16 October, including certain transactions already under way. China has outlined exemptions and simplified procedures for publicly available technologies, overseas AI services and specified international research activities, while maintaining that the measures are not directed at any particular country or company. The proposals come amid continuing US–China com...",
+      "score": 0.734,
+      "authority": 0.0
+    },
+    {
+      "title": "彭博專訪 龔明鑫:台灣準備對中國緊縮AI晶片出口管制",
+      "url": "https://www.cna.com.tw/news/afe/202610163006.aspx",
+      "site": "www.cna.com.tw",
+      "date": "2026/10/16 17:24:00",
+      "passage": "彭博專訪 龔明鑫:台灣準備對中國緊縮AI晶片出口管制 中央社。經濟部長龔明鑫。(中央社檔案照片) (中央社台北16日綜合外電報導)經濟部長龔明鑫近日接受彭博專訪表示,台灣準備緊縮人工智慧(AI)晶片出口管制,進一步與美國限制措施保持一致,加入川普政府打擊尖端半導體走私至中國的行列,但未透露實施時程。 龔明鑫在彭博(Bloomberg News)專訪中說,台灣擬將AI伺服器和尖端半導體納入出口管制清單。他表示新措施上路後,向中國運送受限制的AI硬體,將依「貿易法」追究刑責。 龔明鑫在10月12日訪談中說:「我們日後針對管制品項的部分措施將與美國保持一致,因為我們在『台美對等貿易協定』(Agreement on Reciprocal Trade,簡稱ART)中做出相當程度的承諾。」 不過,龔明鑫婉拒透露政府何時實施這些新措施。 台灣目前尚未將未獲授權AI晶片出口至中國視為犯罪。儘管台灣官員警告可能出口的業者,將貨物運往中國可能違反美國規定,但台灣法院若要起訴涉嫌走私者,僅能以其他現行法律起訴。 一旦新制上路,將成為總統賴清德政府維護台灣科技與國家安全利益採取的最嚴格管制措施之一。台灣正設法採取更強硬的政策,同時因應美國官員的多方施壓。(編譯:洪啓原/核稿:徐崇哲)1151016...",
+      "score": 0.687,
+      "authority": 0.0
+    },
+    {
+      "title": "半导体､精密零部件出海:技术出口管制､供应链尽职调查",
+      "url": "https://www.eccpit.com/news/Y21zcG86MzI2NTA",
+      "site": "贸企通",
+      "date": "2026/10/22 00:00:00",
+      "passage": "半导体、精密零部件出海:技术出口管制、供应链尽职调查 2026年的中国半导体与精密零部件企业,正站在一个前所未有的十字路口。一方面,国内产业升级加速,国产替代浪潮推动企业在高端光刻、精密机床、特种材料等领域取得突破,出海成为必然选择;另一方面,全球地缘政治格局日趋复杂,技术出口管制与供应链尽职调查的双重压力,正在重塑企业国际化的底层逻辑。 过去,企业出海的合规重心是“产品是否符合目标市场标准”;如今,合规的核心已转向“技术能否合法出境”与“供应链是否经得起穿透式审查”。本文将从律师视角,系统梳理半导体与精密零部件出海面临的全链条法律挑战。 一、技术出口管制:从“货物出口”到“无形技术转移”的全覆盖 2026年,中国出口管制体系已进入“严监管时代”。核心法律依据包括《中华人民共和国出口管制法》《中华人民共和国两用物项出口管制条例》及2026年度《两用物项和技术进出口许可证管理目录》(2026年1月1日实施)。 (一)管制范围:参数阈值触发,HS编码仅作参考 2026年版管制目录已扩充至1005项物项,涵盖核、化学生物、导弹航空动力、精密加工设备、半导体及战略材料、无人驾驶航空器六大类。 关键变化:判定标准以物项技术参数(精度、纯度、功率等)为唯一依据,HS编码仅作申报参考。这意味着,企业不能再依赖海关税号“蒙混过关”,必须建立完整的产品技术参数档案。 (二)高频管控品类包括: **半导体设备与材料:**高端光刻、薄膜沉积、蚀刻设备;超高纯金属、稀土永磁、特种陶瓷、碲/铟/钼等稀散金属 **精密加工设备:**多轴联动数控机床、激光切割/焊接设备、工业3D打印设备 **无人机及核心零部件:**续航≥30分钟+可抵御25节阵风的整机,以及高精度飞控、陀螺仪、红外成像载荷等 特别提醒:配套软件、技术图纸、生产工艺单独列入管制。单纯出口技术或程序,同样需要申领两用物项许可证。 (三)长臂管辖:0.1%价值阈值与稀土技术延伸 2025年12月1日起生效的商务部公告确立了“长臂管辖”原则: 含中国原产管制物项价值占比≥0.1%的境外制造物项,纳入许可管理; 使用中国稀土技术在境外生产的物项,纳入许可管理。 这意味着,即使产品在境外生产,只要含有中国原产受控成分或使用中国稀土技术,出口时仍需向中国商务主管部门申请许可。 (四)国别管制:日本、欧盟实体“黑名单”动态管控 2026年,中国对特定国家和地区的出口管制显著收紧: **日本:**2026年1月6日起,禁止所有两用物项向日本军事用户、军事用途及一切有助于提升日本军事实力的最终用户出口;20家日本实体被列入管控名单(全面禁止出口),20家列入关注名单(不得申请通用许可); **欧盟:**2026年7月24日起,禁止向14家欧盟实体出口两用物项; **美国:**2026年8月5日起,无人机相关两用物项对美出口逐案从严审核。 律师建议:企业应建立动态筛查机制,在交易前核查客户、最终用户是否被列入商务部管控名单或关注名单。对于关注名单实体,申请单项许可需额外提交风险评估报告及不用于提升军事实力的书面承诺,审批周期不受45个工作日限制。 (五)敏感用途:14nm以下芯片逐案审批 对用于14nm及以下逻辑芯片、256层及以上存储芯片及其制造设备、材料或潜在军用AI研发的出口申请,实行逐案审批。这意味着,涉及先进制程的半导体产品出口,面临极高的不确定性。 (六)报关申报:强制标注,简化申报取消 自2026年4月15日起,出口报关单新增“禁限管制识别码”和“禁限管制申报要素”为必填项,覆盖104个十位HS编码。一般贸易、跨境电商、快件、样品、赠送全部适用管制规则,简化申报彻底取消。 报关单必须二选一标注: 属于两用物项管制商品; 不属于两用物项管制商品。 非管制物项也需注明“不属于出口管制物项”,并上传产品规格书、检测报告作为佐证。 二、供应链尽职调查:从“产品合规”到“全链条穿透” 如果说出口管制是“出境门槛”,那么供应链尽职调查则是“入境门槛”。2026年,欧盟《企业可持续尽职调查指令》(CSDDD)的域外效应正在深刻改变全球供应链的合规格局。 CSDDD的“传导效应”:你不必直接适用,但必须配合。 CSDDD于2024年正式通过,综合法案(Directive (EU) 2026/470)于2026年3月18日完成修订并生效。各成员国须在2028年7月26日前完成国内立法转化,适用企业统一自2029年7月26日起履行尽职调查义务。 核心逻辑:即使中国企业自身营收规模未达CSDDD直接适用门槛,但如果客户是受CSDDD约束的欧洲大型企业,欧盟买方会通过采购合同、供应商行为准则和审计条款,将尽职调查要求逐级传导至上游。 这意味着,中国企业需要回答的不再只是“产品是否合规”,而是: 这个产品是如何生产出来的? 生产过程中是否存在严重的人权或环境风险? 企业有没有识别、预防和处理这些风险? 尽职调查的核心维度 根据CSDDD的六步骤框架,企业需建立以下能力: 1、政策制度化 制定并定期更新ESG/可持续发展政策文件; 建立供应链行为准则,覆盖环境、人权、劳工、商业道德条款; 政策至少每24个月审查一次。 2、风险识别与评估 引入“范围界定”机制:先初步摸排,找出最可能发生且影响最严重的风险领域,再针对高风险领域开展深入评估; 识别活动链中环境风险、劳工风险聚集的高风险环节; 评估依据须来源于合理可获取的信息,而非仅依赖供应商单方面陈述。 3、合同级联机制 与主要客户签订的采购合同中嵌入ESG相关条款; 要求供应商签署行为准则确认函、合规承诺函; 约定客户有权进行现场审计和数据核查; 向下一层级供应商逐级传导合规要求。 4、数据提供与保护 员工不超过1,000人的供应商可获得法定保护,拒绝超出自愿性中小企业报告标准(VSME)范围的数据索取要求,但基础的环境、劳工、人权合规数据仍需提供。 汽车与电池产业链:重点影响领域。CSDDD对汽车和动力电池产业链的影响尤其值得关注。一辆新能源汽车涉及钢...",
+      "score": 0.748,
+      "authority": 0.0
+    },
+    {
+      "title": "韩国修订版战略物资出口管制政策9月1日正式生效",
+      "url": "http://commerce.shandong.gov.cn/art/2026/10/8/art_250176_10385756.html",
+      "site": "山东省商务厅",
+      "date": "2026/10/08 00:00:00",
+      "passage": "韩国修订版战略物资出口管制政策9月1日正式生效 山东省商务厅。韩国修订版战略物资出口管制政策9月1日正式生效 发布日期:2026-10-08 浏览次数:9$(function(){$.ajax({url : '/module/visitcount/getVCcount.jsp?colid=250176&artid=10385756',async: true,success: function(message){var span = document.getElementById(\"artcount\"); span.innerHTML=message;}, });}); 字号:[ 大 中 小 ] 2026年9月1日,韩国产业通商资源部(MOTIE)正式实施修订后的《战略物资进出口通知》,对标四大国际多边出口管制机制,完成80余项物项与技术规则的国内转化,重点收紧前沿两用物项出口管控,同时优化企业申报流程、适度调整部分品类管制标准。本次修订核心升级高技术领域管制清单,新增高性能AI集成电路、符合特定标准的半导体光刻、蚀刻、沉积设备以及核酸合成仪等前沿两用物项,全面接轨美欧日主流管制规则。新规明确,企业出口上述受限物项必须事前申请官方出口许可证,同时严格落实物项核验、最终用户及最终用途审查要求。即便产品未列入战略物资清单,若企业有理由怀疑其可用于研发、制造大规模杀伤性武器,也需申请特殊出口许可,大幅强化风险兜底管控。在收紧高端技术管控的同时,韩国同步优化管制细则与营商流程。政策适度放宽高能二次电池管制门槛,将管制阈值由每公斤350瓦时上调至500瓦时,并修正清单内物资规范名称,提升管制精准度。此外,新规取消原有出口商专项申报要求,将企业合规义务直接纳入法规条文,同步优化各类许可、申报、评估制式表格,精简审批流程,降低企业行政负担。后续韩国政府将面向行业普及新规内容,依托官方出口管...",
+      "score": 0.672,
+      "authority": 0.0
+    },
+    {
+      "title": "AI晶片走私大陸將追刑責 龔明鑫:台灣擬加緊出口管制與美接軌",
+      "url": "https://www.udn.com/news/story/7238/9819172",
+      "site": "www.udn.com",
+      "date": "2026/10/16 14:26:00",
+      "passage": "AI晶片走私大陸將追刑責 龔明鑫:台灣擬加緊出口管制與美接軌 联合新闻网。經濟部長龔明鑫日前接受彭博專訪。彭博資訊 台灣將加強管制AI伺服器與先進晶片出口,未經許可運往中國大陸將面臨刑責。經濟部長龔明鑫向彭博透露,這項規劃將進一步與美國出口管制接軌,但尚未說明實施時程。 經濟部長龔明鑫接受彭博訪問時說,台灣計劃將AI伺服器與先進半導體納入出口管制清單。措施生效後,受管制的AI硬體運往大陸,將依《貿易法》追究刑責。 龔明鑫12日受訪時說:「往後,我們對部分管制品項採取的措施,會與美國相互對應,因為我們在對等貿易協定中作了不少承諾。」他指的是台美今年簽署的貿易協議,但未透露新措施何時實施。 美國長期管制大陸採購輝達(NVIDIA)與超微(AMD)的AI晶片,但大陸企業仍透過運作複雜的黑市,取得這些搶手的AI加速器。美國官員指控,過去幾年已有價值數十億美元的輝達硬體流入大陸。 台灣目前尚無直接針對未經許可向大陸出口AI晶片的刑事處罰規定。台灣官員雖會警告有意出口的業者,將產品運往大陸可能違反美國規定,但若要在台灣法院追究涉嫌走私者的責任,只能依其他現行法律起訴。 新制一旦上路,將是賴清德政府維護台灣科技與國家安全的一項重大管制措施。台灣正試著採取更積極的政策,同時因應美方多方面的施壓。 賴清德先前曾說,台灣將處理美方對出口管制的疑慮,但未說明具體內容。 彭博已報導,台灣正研議增訂法規,防堵先進硬體被轉運,讓向大陸走私AI晶片的行為也能追究刑責。 他受訪時也向彭博透露,台灣計劃籌資數十億美元,在美國開展工業園區,為輝達及其他AI硬體業者在當地建立完整供應鏈。...",
+      "score": 0.69,
+      "authority": 0.0
+    },
+    {
+      "title": "Taiwan plans AI chip smuggling offence",
+      "url": "https://chinadailystar.com/news/taiwan-ai-chip-smuggling-law",
+      "site": "chinadailystar.com",
+      "date": "2026/10/18 00:00:00",
+      "passage": "Taiwan plans criminal offence for AI chip smuggling to China The proposed Foreign Trade Act amendment would bring AI servers and advanced semiconductors under tighter export controls, but no start date or penalties have been announced. Taiwan plans to make the unauthorised export of AI servers and advanced semiconductors to China a specific criminal offence, tightening a legal framework that currently lacks a dedicated offence for these products. Economy Minister Kung Ming-hsin announced the proposed change on 12 October, saying the items would be added to controls under the Foreign Trade Act. The amendment has been drafted by Democratic Progressive Party lawmaker Chung Chia-pin. It would extend controls beyond the existing approach, which requires permits for some listed Chinese companies, and apply to AI servers and advanced chips supplied to buyers in China. The government has not announced when the change would take effect. What would change Under current rules, unauthorised exports can be treated as an administrative violation, while prosecutors lack a specific Foreign Trade Act offence for smuggling AI hardware, according to the accounts of the proposal. Existing strategic high-tech goods rules provide for penalties of up to five years in prison, but the proposed amendment is intended to give authorities a more direct legal basis for cases involving controlled AI products. The proposal is part of a wider tightening of export controls. Since mid-2025, Huawei and chipmaker SMIC have been on Taiwan’s strategic high-tech goods list, requiring Taiwanese companies to obtain permits to supply them. The planned additions would cover AI servers and advanced semiconductors more broadly, rather than focusing on named companies alone. Why the change is being proposed The move follows enforcement cases involving alleged transfers of advanced ha...",
+      "score": 0.687,
+      "authority": 0.0
+    },
+    {
+      "title": "Chip Capacity, Export Controls and Trade Shocks Reshape Semiconductor Supply Networks",
+      "url": "https://chipdispatch.com/articles/chip-capacity-export-controls-and-trade-shocks-reshape-supply-networks-a124775f",
+      "site": "chipdispatch.com",
+      "date": "2026/10/15 21:55:07",
+      "passage": "Chip Capacity, Export Controls and Trade Shocks Reshape Supply Networks Supply Chain Management Review's First Shift column ties chip capacity, export controls, and trade shocks into a single restructuring story reshaping semiconductor supply networks. By Tom Whitfield Filed October 15, 2026 Channel Semiconductors Read 3 min read Key specs Supply Chain Management Review's 'First Shift' column identifies chip capacity, export controls and trade shocks as three forces reshaping semiconductor supply networks The column argues the combined effect is forcing companies to rebuild networks that had remained largely unchanged for two decades Leading-edge production at 5nm and below remains concentrated in Taiwan and South Korea, while mature nodes at 28nm and above have spread across the United States, Europe and Japan United States export controls on advanced chips and equipment bound for China now cover specific process nodes, lithography tools and AI accelerator designs The 'China plus one' sourcing approach has moved from contingency plan to default for many original equipment manufacturers The semiconductor supply chain is undergoing a structural redrawing driven by three converging forces: chip capacity, export controls and trade shocks. That is the central claim of Supply Chain Management Review's recurring \"First Shift\" column. The column groups the three pressures into a single narrative rather than treating them as separate developments. The combined effect, the publication argues, is forcing companies to rebuild networks that had remained largely unchanged for two decades. The takeaway from the column's headline is that no single pressure caused the restructuring, but none of them can be addressed in isolation. What is changing on the capacity side? Capacity refers to where wafers are made and at which process node. The chip industry has spent the last several years committing tens of billions of dollars to new fabs in the United States, Europe and Japan through subsidy programs and direct investments. The practical question for buyers is how much of that announced capacity will actually produce shipped wafers. Leading-edge production at 5nm and below remains concentrated in Taiwan and South Korea, where the most advanced logic foundries operate. Mature nodes at 28nm and above have spread across more geographies, including new fabs in the United States, Germany and Japan. The column's point is that the build-out is uneven, and the gap between announced ...",
+      "score": 0.737,
+      "authority": 0.0
+    },
+    {
+      "title": "韩国修订版战略物资出口管制政策9月1日正式生效",
+      "url": "https://gdtbt.org.cn/html/note-458575.html",
+      "site": "广东省应对技术性贸易壁垒信息平台",
+      "date": "2026/10/15 00:00:00",
+      "passage": "韩国修订版战略物资出口管制政策9月1日正式生效 广东省应对技术性贸易壁垒信息平台。2026年9月1日,韩国产业通商资源部(MOTIE)正式实施修订后的《战略物资进出口通知》,对标四大国际多边出口管制机制,完成80余项物项与技术规则的国内转化,重点收紧前沿两用物项出口管控,同时优化企业申报流程、适度调整部分品类管制标准。 本次修订核心升级高技术领域管制清单,新增高性能AI集成电路、符合特定标准的半导体光刻、蚀刻、沉积设备以及核酸合成仪等前沿两用物项,全面接轨美欧日主流管制规则。新规明确,企业出口上述受限物项必须事前申请官方出口许可证,同时严格落实物项核验、最终用户及最终用途审查要求。即便产品未列入战略物资清单,若企业有理由怀疑其可用于研发、制造大规模杀伤性武器,也需申请特殊出口许可,大幅强化风险兜底管控。 在收紧高端技术管控的同时,韩国同步优化管制细则与营商流程。政策适度放宽高能二次电池管制门槛,将管制阈值由每公斤350瓦时上调至500瓦时,并修正清单内物资规范名称,提升管制精准度。此外,新规取消原有出口商专项申报要求,将企业合规义务直接纳入法规条文,同步优化各类许可、申报、评估制式表格,精简审批流程,降低企业行政负担。 后续韩国政府将面向行业普及新规内容,依托官方出口管制咨询平台,为企业提供物项归类、许可办理等专项服务,兼顾出口安全管控与产业贸易便利化。此次修订进一步完善了韩国两用物项出口管制体系,贴合全球高技术贸易管控升级的整体趋势。 关注“广东技术性贸易措施”,获取更多服务。...",
+      "score": 0.662,
+      "authority": 0.0
+    },
+    {
+      "title": "中国国际贸易促进委员会陕西省分会",
+      "url": "https://www.ccpit-shaanxi.org.cn/newstyle/pub_newsshow.asp?id=1190541&chid=100752",
+      "site": "www.ccpit-shaanxi.org.cn",
+      "date": "2026/10/10 10:12:00",
+      "passage": "经贸风险防范提示与建议(欧美日韩方向) 第三季度,美欧日韩对华经贸政策正从单一关税工具向“规则壁垒+出口管制+投资审查+供应链重构”多维体系演进。中国依据《对外贸易法》加强两用物项出口管制、反制清单和贸易国家安全调查,反制更趋主动。这一趋势正在深刻重塑中国企业的跨境经营环境,成为影响外贸稳量提质的关键变量。 一、国际经贸热点事件法律分析及建议 热点一:中美第八轮经贸磋商达成多项共识与贸易休战延期的“窗口期”博弈 2026年9月20日,中美第八轮经贸磋商在纽约举行,中国国务院副总理何立峰与美国财政部长贝森特分别率团参加。9月24日,商务部披露本轮磋商达成多项共识,涵盖落实已有协议、300亿美元对等降税框架安排、建立贸易理事会和投资理事会、以及吉隆坡联合安排延期等议题。双方经贸牵头人还首次在双边经贸磋商机制下就人工智能问题举行对话。标志着中美经贸关系重回机制化沟通轨道。 然而,共识的达成并不意味着结构性矛盾得到解决。根据商务部此前披露,2025年10月吉隆坡联合安排将部分关税和非关税措施暂停实施至2026年11月10日,包括美方24%对等关税和中方相关反制措施、美方出口管制50%穿透性规则、美方对华海事物流造船业301调查措施等。本轮磋商的核心议题之一即为延长这一安排。7月,商务部已确认双方正在探讨各自300亿美元规模的对等降税框架,对彼此关注产品有望适用最惠国税率甚至更低。 但“缓和窗口”之下暗流涌动。磋商前夕,美国国会多名民主党参议员致信参议院多数党领袖,要求在元首会晤前推进《硬件技术管制多边协调法案》(MATCH法案)、《芯片安全法案》和《AI监督法案》三项对华出口管制法案的投票。7月底,美国国土安全部更将43家中国企业列入UFLPA实体清单,为法案生效以来单次最大规模扩容。这表明美方在经贸磋商的同时,仍在加速推进对华科技封锁的制度化建设。 (一)中美第八轮经贸磋商事件深度解读 本轮磋商的成果具有重要的法律意义。首先,300亿美元对等降税框架安排若最终落地,将是中美之间首次在贸易理事会机制下实现同等规模产品的系统性关税减让,开创了双边贸易争端通过机制化谈判解决的新范式。其次,贸易理事会和投资理事会的建立,意味着中美经贸关系从“危机应对型”向“常态管理型”转变,为双方提供了制度化的沟通与争端缓冲渠道。再次,双方首次在经贸机制下就AI举行对话,表明前沿技术议题正在被纳入双边经贸治理框架,而非完全由国家安全渠道主导。 (二)中美第八轮经贸磋商对相关企业的影响及法律建议 1.对相关企业的影响 (1)短期利好与不确定性并存 对中美双边贸易依存度较高的企业而言,磋商成果释放了积极信号。300亿美元降税框架若落地,涉及产品的进口关税有望从当前加征水平回落至最惠国税率甚至更低,直接降低贸易成本。贸易理事会的建立也为企业提供了政策沟通的制度化渠道。需注意,吉隆坡联合安排的延期尚待双方最终确认,11月10日到期后若未能延长,关税和非关税措施将自动恢复。企业不宜将短期缓和作为中长期经营决策的基础。 (2)科技领域“脱钩”压力持续 参与AI、半导体、量子计算等前沿领域的中国企业,面临的美方出口管制和投资限制压力并未因经贸磋商而减轻。美国国会正在推进的MATCH法案、芯片安全法案等立法若获通过,将进一步收紧对华半导体制造设备和AI芯片的出口管制,企业的美国技术获取渠道可能进一步收窄。 (3)合规复杂度上升 随着贸易理事会和投资理事会的建立,中美经贸规则将呈现“谈判轨道”与“管制轨道”并行的格局——部分领域关税降低、市场准入改善,而另一些领域管制趋严。企业需要同时管理“机遇”和“风险”两套合规逻辑。 2.律师提出风险防控建议: (1)建立中美经贸政策“双轨”跟踪机制 企业应区分“谈判轨道”(关税减让、市场准入、理事会动态)和“管制轨道”(实体清单、出口管制、投资审查、国会立法),分别建立跟踪和应对机制。谈判轨道关注商务部例行发布会和理事会公告,管制轨道关注BIS、OFAC、DHS的规则更新及国会涉华立法进展。 (2)针对降税框架提前做好产品归类和原产地规划 300亿美元对等降税框架的具体产品清单尚未公布。涉及对美出口的企业应提前梳理自身产品在HTS编码下的归类,评估降税可能带来的成本变化,同时审查原产地规则合规性,确保能够充分享受降税红利。对于从美国进口原材料或零部件的企业,同样应评估降税安排对采购成本的正面影响。 (3)在合同中增加“贸易安排变更”条款 鉴于中美贸易安排具有高度不确定性(11月10日为关键节点),建议企业在对美贸易合同中增加专门条款,明确约定:若关税或非关税措施因双边安排到期或变更而调整,价格条款应如何相应修改;双方应在措施变更后一定期限内协商调整,避免因政策突变导致履约争议。 (4)科技企业应做好“最坏情形”预案 涉及半导体、AI、量子技术等领域的企业,应将MATCH法案等国会立法的潜在影响纳入风险评估,提前评估美国设备、软件和技术的替代方案,制定分阶段的国产化或第三国采购计划。同时,在对外合作中注意技术出口合规,避免因使用美国原产技术而触发域外管辖。 热点二:欧盟CBAM正式实施期启动与下游产品扩围 2026年1月1日,欧盟碳边境调节机制(CBAM)正式从过渡期进入征收期,钢铁、铝、水泥、化肥、电力、氢六大高碳行业的进口产品被纳入碳成本征收范围。进口商须取得授权申报人资格,按年度申报进口产品的隐含碳排放量,并购买和清缴与排放量对应的CBAM证书。首次年度申报和证书清缴的截止日期为2027年9月30日,对应2026年全年的进口排放量。 根据2025年修订法规Regulation (EU) 2025/2083,CBAM在进入征收期的同时进行了多项规则调整:新增年进口量不超过50吨的小额豁免;2026年全年暂缓购买证书,证书销售推迟至2027年2月1日启动;年度申报截止日期从5月31日延至9月30日。这些调整在一定程度上缓解了企业的短期压力,但并不改变碳成本将在2027年集中释放的趋势。 2026年8月14日,欧盟委...",
+      "score": 0.661,
+      "authority": 0.0
+    },
+    {
+      "title": "Taiwan to curb AI chip exports to China as part of US trade deal",
+      "url": "https://www.straitstimes.com/asia/east-asia/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
+      "site": "www.straitstimes.com",
+      "date": "2026/10/16 15:20:00",
+      "passage": "After the measures take effect, shipping restricted AI hardware to China will become a criminal offence in Taiwan. PHOTO: BLOOMBERG Taiwan plans to tighten AI chip export controls and add AI servers and cutting-edge semiconductors to its controlled list, aligning more closely with US restrictions on China. Kung Ming-hsin said restricted AI hardware sent to China would become a criminal offence under the Foreign Trade Act, giving Taiwan stronger legal tools against smuggling. The move would deepen Taiwan-US trade ties and protect technology and national security, while Taiwan also plans to raise billions of dollars for US industrial parks for AI supply chains. AI generated TAIPEI – Taiwan is preparing to tighten export controls on AI chips to further align with US restrictions, according to a senior official in Taipei, joining a Trump administration clampdown on the smuggling of cutting-edge semiconductors to China. Taipei plans to add artificial intelligence servers and cutting-edge semiconductors to a list of controlled items, Taiwan’s Minister of Economic Affairs Kung Ming-hsin told Bloomberg News. After the measures take effect, he said, shipping restricted AI hardware to China will become a criminal offence under the Foreign Trade Act. “Going forward, some of our measures on controlled items will correspond to American ones because we have made quite some commitments in the Agreement on Reciprocal Trade,” Kung said in an interview on Oct 12, referring to the trade deal that the US and Taiwan signed in 2026, though he declined to elaborate on when the government will implement the new measures. The US has long restricted Chinese purchases of AI chips from Nvidia and Advanced Micro Devices, but companies in China have still managed to get their hands on the coveted accelerators through a sophisticated black market. US officials have alleged that billions of US dollars’ worth of Nvidia hardware has made its way to China over the past few years. Taiwan currently does not treat unauthorised AI chip exports to China as a crime. While Taiwanese officials warn potential sellers that they may be violating US rules if they ship to China, the only legal recourse through the island’s courts is to charge suspected smugglers with violations of other, existing local laws. Once the new measures are in place, the controls would be among the stri...",
+      "score": 0.686,
+      "authority": 0.0
+    },
+    {
+      "title": "Compute Governance: Export Controls Turn on FLOP Thresholds",
+      "url": "https://chipdispatch.com/articles/compute-governance-export-controls-turn-on-flop-thresholds-2ed32d21",
+      "site": "chipdispatch.com",
+      "date": "2026/10/14 00:00:00",
+      "passage": "Export controls are shifting from end-user licensing to chip-level oversight, with FLOP thresholds now deciding which AI accelerators cross borders. The control point for advanced AI hardware has moved from the shipping dock to the silicon itself. A new CASRAI discussion of compute governance, titled \"Compute Governance: Export Controls, FLOP Thresholds, and Chip-Level Oversight,\" frames the shift plainly: regulators now define restricted hardware by raw floating-point capability rather than by end-user paperwork. That reframing matters for every vendor building training accelerators. When the dividing line is a FLOP threshold, the compliance question stops being who buys the chip and becomes what the chip can compute. A design that lands one bin above the line faces licensing; one bin below it ships freely. Product planning becomes, in part, regulatory engineering. What does a FLOP threshold actually regulate? Compute governance, as the piece outlines it, treats total processing capability as the regulated quantity. The approach has an obvious appeal for policymakers. It is measurable, it does not depend on the honesty of the purchaser, and it travels with the die wherever the die goes. It also has an obvious weakness. A threshold is a cliff, and engineers are excellent at approaching cliffs. Any supplier can position a product just under a capability ceiling, the same way automakers once tuned engines to a horsepower bracket for insurance purposes. The gap between restricted and permitted parts becomes a product decision, not a policy outcome. The CASRAI piece places this in the context of existing export control regimes. Chip-level oversight is the next step in a sequence: first controls on specific entities, then on specific fabs and toolmakers, now on the computational ceiling of the finished device. Each step narrows the leak surface. Each step also raises the compliance burden on the semiconductor industry itself. Why chip-level oversight changes the commercial picture For accelerator vendors, the practical consequence is architectural. A product family must now straddle a regulatory boundary deliberately, with one variant cleared for broad sale and another gated behind licenses. That is not a new pattern in this industry; frequency and yield bins have long carved a single design into a pricing ladder. The difference is that governments, not marketing departments, now set the binning criterion. The governance question the piece raises runs deeper th...",
+      "score": 0.72,
+      "authority": 0.0
+    },
+    {
+      "title": "EU: 2026 Update of the EU Control List of Dual-Use Items",
+      "url": "https://www.regulatory-compliance.eu/2026/10/16/eu-2026-update-of-the-eu-control-list-of-dual-use-items",
+      "site": "www.regulatory-compliance.eu",
+      "date": "2026/10/16 00:00:00",
+      "passage": "The European Commission has recently adopted a Delegated Regulation revising the EU’s dual-use export control list set out in Annex I to Regulation (EU) 2021/821. The revision aligns the EU control list with decisions adopted in 2025 by the multilateral export control regimes, namely the Wassenaar Arrangement (WA), the Australia Group (AG) and the Nuclear Suppliers Group (NSG). It also incorporates commitments undertaken by Member States within the Wassenaar Arrangement to introduce uniform controls on additional items across the EU. The updated list strengthens the EU’s ability to control emerging and advanced technologies effectively, supporting the objectives outlined in the 2024 White Paper on Export Controls. Harmonised controls at EU level enhance effectiveness and transparency while safeguarding the competitiveness of European industry and ensuring a level playing field for economic operators across the Single Market. In particular, the revised EU control list introduces new entries covering a range of dual-use items, including: Semiconductor manufacturing and testing equipment and materials, such as Atomic Layer Deposition equipment for molybdenum and ruthenium, equipment for developing and inspecting Extreme Ultraviolet (EUV) masks and reticles, and single-wafer cleaning equipment; Advanced computing integrated circuits (ICs) and electronic assemblies, including ICs incorporating one or more Digital Processing Units; Ceramic Matrix Composites (CMCs) reinforced with mullite and intended for high-temperature applications; Rotary encoders based on inductive sensing technology; Additive manufacturing equipment designed for energetic materials; Chemical Vapour Deposition equipment used to manufacture silicon carbide (SiC) fibres; Technology for developing axial compressors for gas turbine engines; and Revisions to selected control parameters, alongside updates to certain technical definitions and descriptions. The amended EU control list will enter into force following its publication in the Official Journal of the European Union, after completion of the standard two-month scrutiny period during which the ...",
+      "score": 0.693,
+      "authority": 0.0
+    },
+    {
+      "title": "US Expands China Chip Curbs to Design Software and Chemicals",
+      "url": "https://chipdispatch.com/articles/us-expands-china-chip-curbs-to-design-software-and-chemicals-1e6e5f7f",
+      "site": "chipdispatch.com",
+      "date": "2026/10/14 00:00:00",
+      "passage": "US Expands China Chip Curbs to Design Software and Chemicals US curbs chip design software, chemicals and other shipments to China, extending export controls from fab equipment into the design toolchain, Reuters reports. By Nathan Brooks Filed Channel Chips & Policy Read 2 min read Key specs The US has moved to curb shipments of chip design software, chemicals and other supplies to China, Reuters reports The new restrictions extend beyond previously controlled fabrication equipment into design-stage tools Reuters did not specify license terms, effective dates or affected companies in the published item The measure widens a multi-year export control regime targeting China's semiconductor industry The United States has moved to curb shipments of chip design software, specialty chemicals and other supplies to China, Reuters reports, extending export controls beyond fabrication equipment into the toolchain that makes advanced chips designable at all. The decision widens a restrictions regime that already covers lithography systems and advanced logic production tools. Design software and process chemicals sit earlier in the value chain, which means the new measures reach engineers' desks rather than factory floors. That distinction matters commercially: a fab can idle a banned machine, but a design team without its software has nothing to send to the fab. Reuters did not report specific license terms, effective dates, or revenue figures for the affected suppliers in the published item. The agencies behind the measure have not, in the report, named the individual companies that will need licenses. What is confirmed is the direction: more of the semiconductor workflow now requires Washington's permission before it crosses the Pacific. What does the new curb actually cover? The reported scope includes: Chip design software, the electronic design automation tools used to lay out circuits before manufacturing Chemicals used in semiconductor production Other shipments, a category the report leaves broad That breadth is the story. Earlier rounds of controls targeted defined process nodes and named equipment classes. This round covers inputs, which suggests the policy has shifted from slowing China's advanced fabs to slowing its ability to design chips anywhere. Who feels it first? The immediate exposure sits with Western suppliers of design software and fab chemistry, both of which have counted China among their largest markets. Chinese fabless firms, meanwhile, lose ...",
+      "score": 0.725,
+      "authority": 0.0
+    },
+    {
+      "title": "U.S. Expands Export Controls to Overseas Chinese Subsidiaries",
+      "url": "https://chipdispatch.com/articles/u-s-expands-export-controls-to-overseas-chinese-subsidiaries-baac4a9a",
+      "site": "chipdispatch.com",
+      "date": "2026/10/10 00:00:00",
+      "passage": "Washington has extended export controls to cover overseas subsidiaries of Chinese companies, closing a loophole that let restricted firms buy chips and tooling through foreign affiliates. The United States has expanded its semiconductor export controls to cover the overseas subsidiaries of Chinese companies, a shift that extends Washington's extraterritorial reach and closes one of the most widely used workarounds in the chip trade. South Korea's Chosun Ilbo reported the move, which targets the foreign affiliates of Chinese firms already subject to U.S. restrictions. Under the previous framework, entities placed on U.S. restriction lists were barred from buying American chips, equipment and related technology directly — but their subsidiaries abroad often retained access to global suppliers. Why target subsidiaries rather than parent companies? Because the subsidiary structure had become the escape hatch. A Chinese company on a U.S. deny list could set up or use an affiliate in a third country, purchase components and tooling through that affiliate, and transfer them back into China. Expanding the controls to overseas subsidiaries closes that route. The change matters for three groups: Chip suppliers — U.S. and allied semiconductor makers now face compliance exposure on sales to entities they may not have realized were affiliated with restricted Chinese parents. Equipment vendors — the same logic applies to wafer-fabrication equipment, where U.S. toolmakers and their overseas licensees hold dominant positions. Third-country distributors — trading firms in other jurisdictions that have intermediated sales to Chinese groups now sit inside the control perimeter. What does this change for the supply chain? The expansion pushes the effective border of U.S. export law further out. Controls that once applied to the entity and its domestic operations now follow the corporate family abroad. For Chinese semiconductor and electronics groups that built overseas affiliates precisely to keep procurement channels open, the commercial logic of those structures weakens. For non-U.S. suppliers, the calculation shifts as well. Companies outside the United States that sell to Chinese-linked affiliates must weigh whether continued sales risk running afoul of U.S. rules — and, with them, access to the U.S. market and American technology. That secondary leverage has been the enforcement backbone of the export-control regime since it was first broadened. Compliance departments at...",
+      "score": 0.738,
+      "authority": 0.0
+    },
+    {
+      "title": "AI晶片走私中國將追刑責 龔明鑫:台灣擬加緊出口管制",
+      "url": "https://m.my-formosa.com.tw/DOC_230075.htm",
+      "site": "m.my-formosa.com.tw",
+      "date": "2026/10/16 00:00:00",
+      "passage": "經濟部長龔明鑫接受彭博專訪表示,台灣正規劃在美國設立多座人工智慧(AI)產業園區,首座預計落腳德州,單座投資規模約20億至40億美元,協助台灣中小型供應商赴美建立完整供應鏈。 經濟部長龔明鑫接受彭博專訪表示,台灣規劃在美國設立多座人工智慧(AI)產業園區,首座預計落腳德州,每座投資規模約20億至40億美元,協助台灣中小型供應商赴美建立完整供應鏈。此外,台灣也準備加嚴AI晶片及相關硬體出口管制,與美國管制措施接軌,未來違規出口至中國的業者,可能面臨刑事責任。 彭博(Bloomberg News)今天刊出12日對龔明鑫的專訪。龔明鑫表示,台灣政府正與台灣區電機電子工業同業公會合作,推動在美國設置AI產業園區,由公會負責籌措開發資金,政府則提供必要的行政及政策協助。 龔明鑫指出,台灣計劃在美國設置不只一座產業園區,第一座將從德州開始,每座園區建設成本約20億至40億美元,目的是協助台積電、鴻海及其他AI硬體製造商的供應鏈夥伴赴美設廠。 隨著美國加速發展AI基礎建設,輝達(Nvidia)、超微(AMD)等晶片業者,以及Meta、微軟等大型雲端服務企業,持續擴大對AI晶片、伺服器及資料中心設備的需求。 台積電、鴻海及緯創等台灣企業,是美國AI產業供應鏈的重要合作夥伴,但這些大型製造商也仰賴眾多中小型供應商,提供晶片封裝基板、散熱模組及其他關鍵零組件。 報導指出,大型企業通常具備自行籌資及海外擴廠的能力,但規模較小的供應商,往往難以獨力負擔赴美設廠所需的土地、設備及營運成本,因此台灣政府希望透過產業園區模式,降低中小企業跨國投資的門檻。 龔明鑫表示,政府將協助進駐園區的供應商取得貸款信用保證,並就土地取得、簽證申請及相關行政程序,協助業者與美國聯邦及地方政府溝通。 他強調,產業園區不僅是讓台灣企業赴美設廠,更希望建立長期、永續的供應鏈,吸引美國企業及當地勞工共同參與。 根據報導,台灣今年稍早已在台美貿易協定架構下,承諾提供2500億美元信用保證,以支持半導體供應鏈進一步赴美投資。 知情人士透露,台灣方面目前已在德州取得一塊規劃興建產業園區的土地。對此,經濟部表示,相關細節將於適當時機對外說明。 除了推動AI供應鏈赴美布局,龔明鑫也在專訪中透露,台灣正準備進一步收緊AI晶片及相關硬體出口管制,...",
+      "score": 0.688,
+      "authority": 0.0
+    },
+    {
+      "title": "China to Impose Restrictions on Tech Exports",
+      "url": "https://phoenixbulletin.com/china-to-impose-restrictions-on-tech-exports",
+      "site": "phoenixbulletin.com",
+      "date": "2026/10/22 00:00:00",
+      "passage": "China to Impose Restrictions on Tech Exports China has proposed tighter controls on the overseas sale of forty technologies covering AI, semiconductors, solar energy, and other strategic industries, as competition with the U.S. and other Western economies continues to deepen. The proposed changes were released by China’s science and technology and commerce ministries as part of an update to the country’s list of technologies subject to export restrictions or outright bans. The commerce ministry said the measures were needed in part to protect national security. The announcement comes despite recent efforts by Beijing and Washington to cooperate on AI, including discussions about AI governance, safety, and a system for notifying each other about incidents that could pose security risks. The draft identifies 23 AI-related areas, ranging from autonomous AI agents to sophisticated foundation models. Under the proposed rules, China would prohibit overseas sales of technologies used to develop large AI systems trained on sensitive domestic datasets. Restrictions would also cover AI agents intended for particularly sensitive applications, including critical information systems and defense operations. The government said the controls are intended to reduce the risk of misuse while maintaining human oversight of advanced AI systems. Some highly capable AI models could face restrictions rather than a complete export ban. The proposal refers to systems with at least 2 trillion parameters, as well as models possessing certain capabilities considered globally advanced. Several Chinese AI developers have produced models that exceed the proposed threshold, including Moonshot AI and Alibaba, although the government document does not identify individual products. The draft also targets a number of semiconductor design technologies, including systems connected to AI processors and memory components. Solar manufacturing is another major focus, with 12 technologies included in the proposed controls. Some concern the production of polysilicon, an essential material used throughout the solar industry. Five technologies linked to biomedicine, including cell and gene therapy, are also covered. Analysts said the move reflects a broader shift toward national control over strategically important technologies. Lian Jye Su of Omdia said the proposal could be viewed partly as a response to Western governments introducing their own sovereignty requirements in fields such as telecommunic...",
+      "score": 0.698,
+      "authority": 0.0
+    }
+  ]
+}
