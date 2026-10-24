@@ -1,0 +1,9 @@
+# 本地密钥
+config.py
+
+# Python
+__pycache__/
+*.pyc
+
+# 打包
+*.zip
