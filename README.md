@@ -11,8 +11,8 @@
 需要 Python 3.9+，没有任何第三方依赖。
 
 ```bash
-git clone <this-repo>
-cd <this-repo>
+git clone https://github.com/QIndestructible/source-lens.git
+cd source-lens
 copy config.example.py config.py      # macOS/Linux: cp config.example.py config.py
 # 打开 config.py，填入你的 WSA_API_KEY
 
