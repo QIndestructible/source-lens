@@ -60,13 +60,13 @@ app.py            本地 HTTP 服务 + /api/search
 cli.py            命令行出报告（不开浏览器）
 core.py           检索、判重、算指标
 ui.html           界面
-report_stats.py   用 data/evidence 复算文章里的所有数字
+report_stats.py   用 data/evidence 复算全部指标
 data/evidence/    20 个 JSON，400 条真实检索结果
 config.example.py 配置模板（复制成 config.py 再填 key）
 start.bat         Windows 一键启动（可选）
 ```
 
-## 复现文章里的数字
+## 复现这些数字
 
 仓库里带着那 400 条原始结果，不用重新调接口：
 
@@ -84,6 +84,11 @@ python report_stats.py
 python cli.py "算力券 政策 最新进展" --cnt 20 --out report.md
 ```
 
+## 关于密钥
+
+`config.py` 在 `.gitignore` 里，不会被提交。仓库里只有 `config.example.py` 占位符。
+
+如果误提交了：去控制台删掉那个 key 重建一个，光改文件不够——历史记录里还在。
 
 ## License
 

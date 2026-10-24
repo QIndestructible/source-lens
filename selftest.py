@@ -43,9 +43,9 @@ docs = [
     D("政策正式实施", "https://b.test/2", LONG2),
 ]
 g = core.cluster(docs)
-checks.append(("重度改写会漏判（已知上限，见文章第九节）", len(g) == 2))
+checks.append(("重度改写会漏判（这是方法上限，不是 bug）", len(g) == 2))
 
-# 3 政府网站判为官方（没有 authority_level 时）
+# 4 政府网站判为官方（没有 authority_level 时）
 docs = [
     D("某市算力券申报通知", "https://www.huludao.gov.cn/a.html", score=0.76),
     D("算力券解读", "https://tech.test/b.html", score=0.78),
@@ -55,24 +55,24 @@ checks.append((".gov.cn 判为官方/一手", rep["tiers"]["官方"] == 1))
 checks.append(("没有出现「未命中官方」的提示",
                all("没有命中官方" not in tx for _, tx in rep["flags"])))
 
-# 4 高校域名判为高权威
+# 5 高校域名判为高权威
 checks.append((".edu.cn 判为高权威", core.tier_of(D("论文", "https://x.edu.cn/p")) == "高权威"))
 
-# 5 日期三种写法都能解析
+# 6 日期三种写法都能解析
 ds = [core.parse_date(s) for s in ("2026-10-20", "2026-10-20 09:37:00", "2025/02/26 09:37:00")]
 checks.append(("date 三种格式都能解析", all(ds)))
 checks.append(("非法日期返回 None", core.parse_date("昨天") is None))
 
-# 6 密度计算
+# 7 密度计算
 docs = [D(f"标题{i}", f"https://d{i}.test/x", f"第{i}条不同的内容，用来凑够数量。{i}") for i in range(4)]
 rep = core.analyze("测试", docs, today=date(2026, 10, 23))
 checks.append(("密度 = 独立信源 / 条数", abs(rep["density"] - rep["clusters"] / rep["n"]) < 1e-9))
 checks.append(("删掉重复后条数守恒", rep["n"] - rep["clusters"] == rep["dup"]))
 
-# 7 brief 生成
+# 8 brief 生成
 checks.append(("信源结构提示非空", "独立信源" in rep["brief"]))
 
-# 8 相似度对称
+# 9 相似度对称
 checks.append(("相似度对称", abs(core.sim(LONG, LONG2) - core.sim(LONG2, LONG)) < 1e-9))
 
 ok = True
